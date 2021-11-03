@@ -13,8 +13,6 @@ body{
    margin-right:auto;
    margin-left:auto;
    background-color:#ffffff;
-   overflow: hidden;
-   padding-top: 40px;
    }
 
 .border {
@@ -23,19 +21,6 @@ body{
     width:100px;
     height:100px;
 }
-.blue{
-    color:dodgerblue;
-    border-color:dodgerblue;
-    }
-.red{
-    color: red;
-    border-color: red;
-}
-.green{
-    color: green;
-    border-color: green;
-}
-   
 
 h2{
     font-size: 80px;
@@ -47,38 +32,24 @@ h2{
 
 #a{
     float: left;
-    margin-left: 200px;
-    margin-bottom: 2px;
-    
 }
 
 #b{
-    clear: left;
     float: left;
-    margin-left: 150px;
-    margin-bottom: 2px;
-    
 }
 
 #c{
     float: left;
-    
-    margin-bottom: 2px;
 }
 
 #d{
-    clear: left;
     float: left;
-    margin-left: 100px;
-    margin-bottom: 2px;
 }
 
 #e{
     float: left;
-    margin-bottom: 2px;
 }
 
 #f{
-    float: left;
-    margin-bottom: 2px;
+    float: left; 
 }
