@@ -1,0 +1,63 @@
+
+/*Timothy Case 11/5/2021*/
+
+main{
+	background-image: linear-gradient(#FFFFFF, #F0F9E6);
+padding: 10px;
+margin: 20px;
+font-size: 1.25em;
+border-radius: 2em;
+}
+style{
+	background-repeat: no-repeat;
+	max-width: 70%;
+	background-position: top;
+}
+	 
+#outerwrapper {	
+
+	background: rgba(243,205,170, 0.4);
+	border-radius: 15%;
+	
+
+}
+footer{
+	font-size: 1em;
+	padding: 10px;
+}
+body, html {
+	height: 100%;
+  }
+  
+  .bg {
+	/* The image used */
+	background-image: url("images/jewlery.jpg");
+  
+	/* Full height */
+	height: 100%;
+  
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+image{
+	float: left;
+}
+h1{
+	font-family: Pacifico, sans-serif;
+	font-size: 2em;
+	text-align: center;
+}
+h3{
+	font-family: alex-brush, sans-serif;
+	font-style: italic;
+	font-size: 4em;
+	text-align: center;
+}
+nav{
+	font-size: 1.5em;
+}
+.addrightmargin{
+margin-right: 10%;
+}
