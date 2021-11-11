@@ -1,0 +1,47 @@
+ /*Timothy Case*/
+
+body
+     {
+        background-color: #faf2e4;
+        background-image: 96356.jpg;
+        margin: 10%;
+        font-family: 'Lobster', cursive;
+    }
+    h1 {
+        text-align: center;
+        font-family: Lobster-Regular, serif;
+        font-weight: normal;
+        text-transform: uppercase;
+        border-bottom: 1px solid #57b1dc;
+        margin-top: 30px;
+        color: white;
+    }
+    h2{
+        color: #d1633c;
+        font-size: 1em;
+    }
+    table{
+        color: white;
+        width: 75%;
+        border-width: 2px;
+    }
+    table td, th{
+        padding: 15px;
+        border-style: solid;
+    }
+    p{
+        color: white;
+        box-sizing: border-box;
+    }
+    a{
+        color: white;
+    }
+    p{
+        font: Lobster;
+    }
+   footer{
+       text-align: center;
+   }
+   form{
+       color: white;
+   }
