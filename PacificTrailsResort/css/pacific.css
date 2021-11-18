@@ -3,6 +3,7 @@ body
 	background-color: #FFFFFF;
     color: #666666;
 	font-family: Arial, Helvetica, sans-serif;
+	
 }
 header 
 { 
@@ -58,6 +59,7 @@ footer
     font-style: bold;
 	text-align: center;
 	font-family: Georgia, 'Times New Roman', serif;
+	
 }
 	   
 dt 
@@ -78,4 +80,48 @@ dt
 }
 ul {
 	list-style-image: url("../images/marker.gif");
+}
+/*************************** Tablet ***************************/	
+@media screen and (min-width:641px) {
+	body {
+		background-color: gra;
+		/*background-image: url(abstract.jpg);*/
+		background-size: auto;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	nav ul li {
+		display: inline;
+		list-style-type: none;
+	}
+	h2{
+		display: block;
+	}
+	img{
+		display: block;
+	}
+	footer{
+		background: linear-gradient(0deg,#90C7E3, white 100% );
+	}
+}
+/*************************** Mobile ***************************/
+@media screen and (max-width:640px){ 
+	
+
+	body {
+		background-color: #daeff7;
+	}
+	nav ul li{
+		list-style-type: disc;
+		display: block;
+	}
+	h2{
+		display: none;
+	}
+	img{
+		display: none;
+	}
+	footer{
+		background: linear-gradient(0deg,#90C7E3, white 100%);
+	}
 }
