@@ -1,0 +1,52 @@
+/* Timothy Case
+11/19/2021*/
+
+main> ul li{
+    margin: 0%;
+    padding: 0%;
+}
+
+table.Schedule{
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-bottom: .5em;
+    width: 100%;
+}
+table, tr, th, td{
+    border: 1px solid black;
+    
+}
+footer { 
+	background-color: #9BC1C2; 
+    font-size: small;
+	text-align: center;
+	font-style: italic;
+}
+address{
+    margin-bottom: .5em;
+}
+header { 
+	background-color: #9BC1C2; 
+    background-image: url(lilyheader.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+/*************************** Tablet ***************************/	
+@media screen and (min-width:641px){
+nav{
+    display: inline;
+}
+body{
+    background-color:#F5F5F5;
+}
+}
+/*************************** Mobile ***************************/
+@media screen and (max-width:640px){
+body{
+   background-image: url('../images/yogamobile.png');  
+   display: none;
+}
+nav{
+    display: block;
+}
+}
